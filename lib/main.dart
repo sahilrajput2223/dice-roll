@@ -9,6 +9,11 @@ class DiceRoll extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const MaterialApp(
+      title: "Dice Roll",
+      home: Scaffold(
+        backgroundColor: Colors.brown,
+      ),
+    );
   }
 }
